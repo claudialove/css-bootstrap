@@ -10,4 +10,12 @@ body {
     background-color: rgb(240, 229, 240);
 }
 
+.card-portfolio {
+    padding: 2%;
+    margin: 2%;
+    background-color: rgb(240, 229, 240);
+    border: 2px solid rgb(223, 101, 223);
+}
+
+
 
