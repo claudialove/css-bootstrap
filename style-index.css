@@ -1,13 +1,13 @@
 
 
-.col {
-    background-color: pink;
-    border: 5px solid black;
-}
-.navbar {
-    background-color:white;
+body {
+    background-image: url("https://i.pinimg.com/564x/c3/8a/09/c38a093c28ada7dad7b48c53cf1cc336.jpg");
 }
 
-.card-class {
-    background-color: white;
+.card {
+    padding: 5%;
+    margin:5%;
+    background-color: rgb(240, 229, 240);
 }
+
+
