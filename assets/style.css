@@ -1,0 +1,127 @@
+body {
+	background-image: url("https://i.pinimg.com/564x/c3/8a/09/c38a093c28ada7dad7b48c53cf1cc336.jpg");
+	font-family: 'Nunito', sans-serif;
+}
+
+.nav {
+	padding-left: 0;
+	padding-bottom: 20px;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 100%;
+	position: fixed;
+	background: rgb(240, 229, 240);
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: #333;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	display: block;
+	color: rgb(73, 10, 73);
+	padding: 1.7vh 1.8vh;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+li a:hover {
+	background: rgb(226, 211, 226);
+	color: rgb(73, 10, 73);
+}
+
+.jumbotron {
+	margin-top: 100px;
+	color: rgb(56, 110, 110);
+	background: rgb(205, 226, 226);
+}
+#name {
+	margin-left: 20px;
+	letter-spacing: 0.1em;
+}
+.card-group {
+	padding-top: 150px;
+}
+
+.card {
+	height: 250px;
+	width: 250px;
+	text-align: center;
+	color: rgb(56, 110, 110);
+	background: rgb(205, 226, 226);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#top-of-form {
+	padding-top: 100px;
+	color: rgb(0, 24, 24);
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: teal;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: teal;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+	background: rgb(240, 229, 240);
+	color: rgb(73, 10, 73);
+	text-align: center;
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+	.img-responsive {
+		width: 300px;
+		height: 50px;
+		padding-left: 50px;
+	}
+}
+@media (max-width: 376px) {
+	.img-responsive {
+		width: 220px;
+		height: 50px;
+		padding-left: 20px;
+	}
+}
+@media (max-width: 286px) {
+	.img-responsive {
+		width: 180px;
+		height: 50px;
+		padding-left: 5px;
+	}
+}
