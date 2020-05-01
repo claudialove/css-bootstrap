@@ -16,7 +16,7 @@ body {
 .jumbotron {
 	margin-top: 0;
 	width: 100%;
-	height: 60vh;
+	height: 70vh;
 	color: rgb(73, 10, 73);
 	padding: 20px;
 }
@@ -46,7 +46,7 @@ h2 {
 	width: 100%;
 	height: 40vh;
 	padding: 20px;
-	height: 60vh;
+	height: 70vh;
 }
 
 .card {
@@ -58,7 +58,7 @@ h2 {
 
 #contact-me{
 	width: 100%;
-	height: 30vh;
+	height: 40vh;
 	background: rgb(240, 229, 240);
 	
 }
