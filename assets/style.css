@@ -16,15 +16,14 @@ body {
 .jumbotron {
 	margin-top: 0;
 	width: 100%;
-	height: 40vh;
+	height: 50vh;
 	color: rgb(73, 10, 73);
+	padding: 20px;
 }
 
-#resume-link{
+p {
+	font-family: 'Baloo Bhaina 2', cursive;
 	color: rgb(73, 10, 73);
-	text-align: center;
-	padding: 100px;
-	text-decoration: none;
 }
 
 
@@ -43,19 +42,23 @@ h2 {
 
 
 
-p {
-	font-family: 'Baloo Bhaina 2', cursive;
-	color: rgb(73, 10, 73);
+
+.card-group {
+	margin-top: 0;
+	width: 100%;
+	height: 40vh;
+	padding: 20px;
+	height: 55vh;
 }
 
-#resume-link {
-	font-family: 'Baloo Bhaina 2', cursive;
-	color: rgba(126, 35, 126, 0.5);
-	float: right;
+.card {
 	text-align: center;
+	color: rgb(56, 110, 110);
+	background: rgb(205, 226, 226);
+	font-family: 'Baloo Bhaina 2', cursive;
 }
 
- #index-img {
+#index-img {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	height: 100%;
@@ -70,22 +73,9 @@ img {
 	margin-right: 10px
 }
 
-.card-group {
-	margin-top: 0;
-	width: 100%;
-	height: 40vh;
-}
-
-.card {
-	text-align: center;
-	color: rgb(56, 110, 110);
-	background: rgb(205, 226, 226);
-	font-family: 'Baloo Bhaina 2', cursive;
-}
-
 #contact-me{
 	width: 100%;
-	height: 30vh;
+	height: 20vh;
 	background: rgb(240, 229, 240);
 	
 }
