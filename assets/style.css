@@ -1,64 +1,52 @@
+
 body {
-	background-image: url("https://i.pinimg.com/564x/c3/8a/09/c38a093c28ada7dad7b48c53cf1cc336.jpg");
+	background-color: rgb(230, 213, 216);
 }
 
-.nav {
-	padding-left: 0;
-	padding-bottom: 20px;
-	margin: 0;
-	padding: 0;
-	top: 0;
+.name {
 	width: 100%;
 	height: 60px;
-	position: fixed;
+	background: rgb(240, 229, 240);
+	color: rgb(73, 10, 73);
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+.jumbotron {
+	margin-top: 0;
+	width: 100%;
+	height: 40vh;
+	color: rgb(73, 10, 73);
+
+}
+
+#resume-link{
+	color: rgb(73, 10, 73);
+	text-align: center;
+	padding: 100px;
+	text-decoration: none;
+}
+
+
+.portfolio-header-text {
+	width: 100%;
+	height: 60px;
 	background: rgb(240, 229, 240);
 }
 
-#name-about {
-	color: rgba(126, 35, 126, 0.5);
-	text-align: left;
-	font-family: 'Mrs Saint Delafield', cursive;
-}
-
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	background: #333;
-	text-align: center;
-}
-
-li {
-	display: inline-block;
-	text-align: center;
-}
-
-li a {
-	display: block;
-	padding: 1.7vh 1.8vh;
-	text-decoration: none;
-	font-family: 'Baloo Bhaina 2', cursive;
-	color: rgba(126, 35, 126, 0.5);
-	text-align: left;
-
-}
-
-li a:hover {
-	background: rgb(226, 211, 226);
+h2 {
 	color: rgb(73, 10, 73);
-	text-decoration: none;
-	height: 60px;
-
+	text-align: center;
+	padding: 10px;
+	font-family: 'Amatic SC', cursive;
 }
 
-.jumbotron {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
+
 
 p {
 	font-family: 'Baloo Bhaina 2', cursive;
-	color: rgba(126, 35, 126, 0.5);
+	color: rgb(73, 10, 73);
 }
 
 #resume-link {
@@ -84,51 +72,29 @@ img {
 }
 
 .card-group {
-	padding-top: 100px;
+	margin-top: 0;
+	width: 100%;
+	height: 40vh;
 }
 
 .card {
-
 	text-align: center;
 	color: rgb(56, 110, 110);
 	background: rgb(205, 226, 226);
 	font-family: 'Baloo Bhaina 2', cursive;
 }
 
-* {
-	box-sizing: border-box;
-}
-
-#top-of-form {
-	padding-top: 100px;
-	color: rgb(0, 24, 24);
-	font-family: 'Baloo Bhaina 2', cursive;
-}
-
-/* Style inputs */
-input[type=text],
-select,
-textarea {
+.Contact-header-text {
 	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
-	font-family: 'Baloo Bhaina 2', cursive;
+	height: 60px;
+	background: rgb(240, 229, 240);
+	
 }
 
-input[type=submit] {
-	background-color: teal;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	cursor: pointer;
-	font-family: 'Baloo Bhaina 2', cursive;
-}
-
-input[type=submit]:hover {
-	background-color: teal;
+.contact-card-group {
+	margin-top: 0;
+	width: 100%;
+	height: 40vh;
 }
 
 .footer {
